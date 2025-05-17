@@ -12,7 +12,6 @@ C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\K4os.Com
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\K4os.Compression.LZ4.Streams.dll
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\MySql.Data.dll
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.Buffers.dll
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.Diagnostics.DiagnosticSource.dll
@@ -29,7 +28,6 @@ C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\K4os.Com
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\K4os.Compression.LZ4.Streams.xml
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\K4os.Hash.xxHash.xml
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\MySql.Data.xml
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.Buffers.xml
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.Configuration.ConfigurationManager.xml
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.Diagnostics.DiagnosticSource.xml
@@ -41,3 +39,7 @@ C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\System.T
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\obj\Debug\Registro.D0889C39.Up2Date
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\obj\Debug\RegistroDataGrid.exe
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\obj\Debug\RegistroDataGrid.pdb
+C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
