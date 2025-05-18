@@ -10,5 +10,8 @@ namespace RegistroDataGrid
 {
     internal class ConexionBD
     {
+        private MySqlConnection conexion;
+        private string cadenaConexion = "Server=localhost;Port=3307; Uid=root; Pwd=maritza; Database=tecnologico;";
+
     }
 }
