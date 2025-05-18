@@ -110,7 +110,7 @@ namespace RegistroDataGrid
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Error al cargar los datos: " + ex.Message);
             }
         }
     }
