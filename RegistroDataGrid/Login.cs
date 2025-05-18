@@ -33,7 +33,7 @@ namespace RegistroDataGrid
             string usuario = txtUsuario.Text;
             string contraseña = txtContrasena.Text;
             string correo = txtCorreo.Text;
-
+            ConexionBD conexion = new ConexionBD();
 
         }
 
