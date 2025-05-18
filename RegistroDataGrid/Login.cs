@@ -90,6 +90,14 @@ namespace RegistroDataGrid
         {
             try
             {
+                // Conexión a la base de datos
+                MySqlConnection conn = conexion.AbrirConexion();
+
+                // Consulta SQL
+                string consulta = "SELECT * FROM registro";
+
+                // Adaptador y DataTable para llenar el DataGridView
+                MySqlDataAdapter adaptador = new MySqlDataAdapter(consulta, conn);
 
             }
             catch (Exception ex)
