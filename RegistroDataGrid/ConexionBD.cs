@@ -28,6 +28,15 @@ namespace RegistroDataGrid
                 conexion.Close();
         }
     }
-
 }
+
+    ConexionBD conexion = new ConexionBD();
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.CenterToScreen();
+            CargarDatos();
+        }
+
+    }
 
