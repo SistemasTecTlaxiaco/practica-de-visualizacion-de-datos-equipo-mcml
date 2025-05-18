@@ -18,13 +18,15 @@ namespace RegistroDataGrid
         public Form1()
         {
             InitializeComponent();
-
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+         
+                this.CenterToScreen();
+                CargarDatos();
+            }
 
-        }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
@@ -36,5 +38,16 @@ namespace RegistroDataGrid
         {
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
+
