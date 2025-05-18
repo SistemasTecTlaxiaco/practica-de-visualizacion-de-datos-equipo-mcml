@@ -40,6 +40,11 @@ namespace RegistroDataGrid
                 string consulta = "SELECT COUNT(*) FROM registro WHERE usuario = @Usuario AND Contraseña = @Contraseña AND Correo = @Correo";
 
                 MySqlCommand comando = new MySqlCommand(consulta, conexion.AbrirConexion());
+                // Se añaden los parámetros a la consulta para evitar inyecciones SQL.
+                comando.Parameters.AddWithValue("@Usuario", usuario);
+                comando.Parameters.AddWithValue("@Contraseña", contraseña);
+                comando.Parameters.AddWithValue("@Correo", correo);
+
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)
         {
