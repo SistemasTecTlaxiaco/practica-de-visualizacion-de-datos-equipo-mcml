@@ -34,8 +34,12 @@ namespace RegistroDataGrid
             string contraseña = txtContrasena.Text;
             string correo = txtCorreo.Text;
             ConexionBD conexion = new ConexionBD();
-
-        }
+        
+            try
+            {
+                string consulta = "SELECT COUNT(*) FROM registro WHERE usuario = @Usuario AND Contraseña = @Contraseña AND Correo = @Correo";
+               
+              
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)
         {
