@@ -44,4 +44,8 @@ private void btnGuardar_Click(object sender, EventArgs e)
 
     ConexionBD conexion = new ConexionBD();
 }
+try
+{
+    // Se define la consulta SQL para verificar si existe un registro con los datos ingresados.
+    string consulta = "SELECT COUNT(*) FROM registro WHERE usuario = @Usuario AND Contraseña = @Contraseña AND Correo = @Correo";
 
