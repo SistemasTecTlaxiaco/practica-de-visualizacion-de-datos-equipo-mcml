@@ -38,8 +38,8 @@ namespace RegistroDataGrid
             try
             {
                 string consulta = "SELECT COUNT(*) FROM registro WHERE usuario = @Usuario AND Contraseña = @Contraseña AND Correo = @Correo";
-               
-              
+
+                MySqlCommand comando = new MySqlCommand(consulta, conexion.AbrirConexion());
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)
         {
