@@ -30,6 +30,9 @@ namespace RegistroDataGrid
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            string usuario = txtUsuario.Text;
+            string contraseña = txtContrasena.Text;
+            string correo = txtCorreo.Text;
 
 
         }
