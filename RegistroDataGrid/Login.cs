@@ -34,7 +34,7 @@ namespace RegistroDataGrid
             string contraseña = txtContrasena.Text;
             string correo = txtCorreo.Text;
             ConexionBD conexion = new ConexionBD();
-        
+
             try
             {
                 string consulta = "SELECT COUNT(*) FROM registro WHERE usuario = @Usuario AND Contraseña = @Contraseña AND Correo = @Correo";
@@ -61,6 +61,15 @@ namespace RegistroDataGrid
                     // Si no hay coincidencias, se muestra un mensaje de error.
                     MessageBox.Show("Datos incorrectos. Verifica tu usuario, contraseña y correo.");
                 }
+                // Se cierra la conexión a la base de datos.
+                conexion.CerrarConexion();
+            }
+            catch (Exception ex)
+            {
+                // En caso de error en el proceso, se muestra un mensaje con la descripción del error.
+                MessageBox.Show("Error al iniciar sesión: " + ex.Message);
+            }
+        }
 
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)
