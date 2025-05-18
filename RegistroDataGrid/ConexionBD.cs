@@ -29,7 +29,6 @@ namespace RegistroDataGrid
         }
     }
 }
-
     ConexionBD conexion = new ConexionBD();
 
         private void Form1_Load(object sender, EventArgs e)
@@ -37,6 +36,12 @@ namespace RegistroDataGrid
             this.CenterToScreen();
             CargarDatos();
         }
+private void btnGuardar_Click(object sender, EventArgs e)
+{
+    string usuario = txtUsuario.Text;
+    string contraseña = txtContrasena.Text;
+    string correo = txtCorreo.Text;
 
-    }
+    ConexionBD conexion = new ConexionBD();
+}
 
