@@ -45,6 +45,17 @@ namespace RegistroDataGrid
                 comando.Parameters.AddWithValue("@Contraseña", contraseña);
                 comando.Parameters.AddWithValue("@Correo", correo);
 
+                // Se ejecuta la consulta y se obtiene la cantidad de registros que coinciden.
+                int count = Convert.ToInt32(comando.ExecuteScalar());
+
+
+                // Si el resultado es mayor que cero, los datos son correctos.
+                if (count > 0)
+                {
+                    MessageBox.Show("Inicio de sesión exitoso.");
+                    // Aquí podrías abrir el formulario principal y ocultar el actual.
+                    // new FormPrincipal().Show(); this.Hide();
+                }
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)
         {
