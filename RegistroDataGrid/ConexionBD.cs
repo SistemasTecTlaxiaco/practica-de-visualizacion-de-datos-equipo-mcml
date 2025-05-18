@@ -12,6 +12,16 @@ namespace RegistroDataGrid
     {
         private MySqlConnection conexion;
         private string cadenaConexion = "Server=localhost;Port=3307; Uid=root; Pwd=maritza; Database=tecnologico;";
+        public MySqlConnection AbrirConexion()
+        {
+            if (conexion == null)
+                conexion = new MySqlConnection(cadenaConexion);
+
+            if (conexion.State == System.Data.ConnectionState.Closed)
+                conexion.Open();
+
+            return conexion;
+        }
 
     }
 }
