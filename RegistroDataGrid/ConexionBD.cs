@@ -49,3 +49,5 @@ try
     // Se define la consulta SQL para verificar si existe un registro con los datos ingresados.
     string consulta = "SELECT COUNT(*) FROM registro WHERE usuario = @Usuario AND Contraseña = @Contraseña AND Correo = @Correo";
 
+    // Se prepara el comando SQL con la conexión abierta.
+    MySqlCommand comando = new MySqlCommand(consulta, conexion.AbrirConexion());
