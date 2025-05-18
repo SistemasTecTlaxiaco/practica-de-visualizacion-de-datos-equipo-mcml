@@ -56,6 +56,12 @@ namespace RegistroDataGrid
                     // Aquí podrías abrir el formulario principal y ocultar el actual.
                     // new FormPrincipal().Show(); this.Hide();
                 }
+                else
+                {
+                    // Si no hay coincidencias, se muestra un mensaje de error.
+                    MessageBox.Show("Datos incorrectos. Verifica tu usuario, contraseña y correo.");
+                }
+
 
         private void pnlImage_Paint(object sender, PaintEventArgs e)
         {
