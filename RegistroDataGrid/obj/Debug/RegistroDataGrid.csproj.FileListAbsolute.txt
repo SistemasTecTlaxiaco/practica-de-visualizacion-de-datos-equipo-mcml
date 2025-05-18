@@ -43,3 +43,10 @@ C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsof
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 C:\Users\CICEM\source\repos\RegistroDataGrid\RegistroDataGrid\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.csproj.AssemblyReference.cache
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.Form1.resources
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.Properties.Resources.resources
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.csproj.GenerateResource.cache
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.csproj.CoreCompileInputs.cache
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.exe
+C:\Users\lenin\Source\Repos\practica-de-visualizacion-de-datos-equipo-mcml\RegistroDataGrid\obj\Debug\RegistroDataGrid.pdb
