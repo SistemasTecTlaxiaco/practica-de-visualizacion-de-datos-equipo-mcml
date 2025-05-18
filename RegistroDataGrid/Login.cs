@@ -98,6 +98,14 @@ namespace RegistroDataGrid
 
                 // Adaptador y DataTable para llenar el DataGridView
                 MySqlDataAdapter adaptador = new MySqlDataAdapter(consulta, conn);
+                DataTable tabla = new DataTable();
+        adaptador.Fill(tabla);
+
+        // Asignar datos al DataGridView
+        dataGridView1.DataSource = tabla;
+
+        // Cerrar conexión
+        conexion.CerrarConexion();
 
             }
             catch (Exception ex)
