@@ -22,10 +22,10 @@ namespace RegistroDataGrid
 
         private void Form1_Load(object sender, EventArgs e)
         {
-         
-                this.CenterToScreen();
-                CargarDatos();
-            }
+
+            this.CenterToScreen();
+            CargarDatos();
+        }
 
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -85,6 +85,17 @@ namespace RegistroDataGrid
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+        private void CargarDatos()
+        {
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }
