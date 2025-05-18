@@ -22,6 +22,12 @@ namespace RegistroDataGrid
 
             return conexion;
         }
-
+        public void CerrarConexion()
+        {
+            if (conexion != null && conexion.State == System.Data.ConnectionState.Open)
+                conexion.Close();
+        }
     }
+
 }
+
